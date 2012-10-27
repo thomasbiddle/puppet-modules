@@ -1,0 +1,29 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/apache (0.4.0)
+      puppetlabs/firewall (>= 0.0.4)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/firewall (0.0.4)
+    puppetlabs/stdlib (3.1.1)
+
+GIT
+  remote: https://github.com/thomasbiddle/ThomasBiddle.com
+  path: puppet/
+  ref: master
+  sha: 304692729170347ad7a2d63ae9b185daaa6e7e04
+  specs:
+    thomasbiddle_com (0.0.1)
+
+GIT
+  remote: https://github.com/torrancew/puppet-cron
+  ref: master
+  sha: e2f8f317b3f85eed827265466cfac000be1be014
+  specs:
+    torrancew/puppet-cron (0.0.1)
+
+DEPENDENCIES
+  puppetlabs/apache (>= 0)
+  thomasbiddle_com (>= 0)
+  torrancew/puppet-cron (>= 0)
+
