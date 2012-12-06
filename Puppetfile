@@ -1,7 +1,5 @@
 forge "http://forge.puppetlabs.com"
 
- mod 'puppetlabs/apache'
-
  mod 'torrancew/puppet-cron',
    :git => 'https://github.com/torrancew/puppet-cron'
 
